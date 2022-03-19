@@ -1,0 +1,112 @@
+<head>
+  <meta charset='UTF-8'/>
+  <title>Dummy</title>
+  <link rel='stylesheet' href='styles.css'/>
+</head>
+
+body {
+    font-size: 18px;
+    padding: 0.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: normal; /*bold is another option*/
+  color: #1c19d8;
+}
+
+h1{
+  padding: 0.5em 10px;
+  font-size: 3em;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 2em;
+  border-bottom: 1px solid #5D6063;
+}
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+.end {
+    color: #1c19d8;
+    font-size: 2em;
+    background-color:rgb(197, 197, 197); 
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px auto; /* Vertical  Horizontal */
+}
+
+#intro {
+    background-color: rgb(197, 197, 197);
+    padding: 10px;
+    color: blue;
+}
+
+.experience {
+    font-style: italic;
+}
+
+.contact {
+    text-decoration: underline;
+}
+
+.main {
+    margin: 50px;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited:hover {
+    color: orange;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navigation li a:hover {
+    background-color: #111;
+    color: orange;
+}
+
