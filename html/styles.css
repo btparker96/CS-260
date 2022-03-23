@@ -166,7 +166,7 @@ a:visited:hover {
   /* Desktop Styles */
   @media only screen and (min-width: 961px) {
     body {
-      background-color: #b8b5b5; /* Blue */
+      background-color: #cfcfcf; /* Blue */
     }
   }
 
