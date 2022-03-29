@@ -1,0 +1,215 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d3d3d3;
+}
+
+.bg-light {
+    background-color: #7cac7a !important;
+}
+
+.navbar {
+    height: 75px;
+}
+
+#navbarNav {
+    justify-content: right !important;
+}
+
+.nav-link {
+    border: 20 px !important;
+}
+
+h3 {
+    font-family: sans-serif !important;
+    font-style: italic;
+    padding: 20px;
+}
+
+.photo-grid-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid #111; */
+}
+
+.reviews-grid-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid #111; */
+}
+
+div img {
+    width: 100%;
+    padding: 5px;
+}
+
+.photo-text-grid {
+    border-top: 1px solid #111;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.i-text p {
+    padding: 40px;
+    font-size: 25px;
+    line-height: 60px;
+}
+
+p {
+    padding: 10px;
+}
+
+.review-container p {
+    padding: 0px 20px;
+}
+
+.i-text h1 {
+    padding: 40px 40px 0px 40px;
+}
+
+.footer {
+    background-color: #7cac7a;
+    border-top: 1px solid #000;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 80px;
+    margin: 0;
+}
+
+.home_head {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.home_head img {
+    width: 100%; /* width of container */
+    height: 800px; /* height of container */
+    object-fit: cover;
+    /* border: 5px solid black; */
+}
+
+.home_head h2 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    float: center;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+
+
+.profile-pic {
+    float: left;
+    width: 200px;
+    margin: 20px;
+}
+
+.about-me-container {
+    width: 60%;
+    justify-content: center;
+    background-color: rgb(118, 141, 151);
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+    margin: auto;
+    height: auto;
+}
+
+.about-me {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.center-div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.personal-intro {
+    text-align: center;
+    padding: 50px;
+    font-style: italic;
+    line-height: 80px;
+}
+
+.spacer {
+    height: 500px;
+}
+
+@media only screen and (max-width: 400px) {
+    .image {
+        /* border: 1px solid #111; */
+        width: 80%;
+    }
+    .review-container {
+        /* border: 1px solid #111; */
+        width: 80%;
+    }
+    .i-text p {
+        line-height: none;
+    }
+    .profile-pic {
+        float: left;
+        width: auto;
+        margin: 20px;
+    }
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .image {
+        /* border: 1px solid #111; */
+        width: 300px;
+    }
+    .review-container {
+        /* border: 1px solid #111; */
+        width: 300px;
+    }
+    .i-text p {
+        line-height: none;
+    }
+    .profile-pic {
+        width: 35%;
+    }
+}
+@media only screen and (min-width: 961px) {
+    .image {
+        /* border: 1px solid #111; */
+        width: 33%;
+    }
+    .review-container {
+        /* border: 1px solid #111; */
+        width: 33%;
+    }
+    .image-text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+        align-items: top;
+        width: 100%;
+        /* border: 1px solid #111; */
+    }
+    .image-t {
+        /* border: 1px solid #111; */
+        width: 40%;
+    }
+    .i-text {
+        /* border: 1px solid #111; */
+        width: 40%;
+        /* vertical-align: middle; */
+    }
+}
