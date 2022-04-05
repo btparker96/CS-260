@@ -131,3 +131,16 @@ input {
     justify-content: left;
     margin: 20px 50px 20px 50px;
 }
+
+.footer {
+    background-color: #7eb686;
+    border-top: 1px solid #000;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 80px;
+    margin: 0;
+}
