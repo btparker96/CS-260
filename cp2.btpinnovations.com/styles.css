@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    margin: 10px;
+}
+
+h1 h2 h3 h4 {
+    padding: 20px;
+    margin: 20px;
+}
+
+.heading h1 {
+    text-align: left;
+    font-style: italic;
+}
+
+.three-hour-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.three-hour {
+    width: 500 px;
+}
+
+.three-hour-img {
+    width: 60%;
+    justify-content: center;
+}
+
+.main-forecast-box {
+    display: flex;
+    justify-content: center;
+}
+
+.forecast-padding {
+    width: 10%;
+}
+
+body {
+    background-color: rgb(225, 249, 255);
+}
+
+.img-summary {
+    width: 200px;
+}
+
+.day-report {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.summary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.current-financial-statement {
+    padding: 0px 0px 20px 0px;
+}
+
+.heading {
+    background-color: #7eb686;
+    padding: 20px;
+    margin: 0px;
+}
+
+.current-financial-box {
+    display: flex;
+    justify-content: center;
+}
+
+.current-financial-box div {
+    margin: 20px;
+}
+
+.form-box {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.dayReport {
+    width: 150px;
+}
+
+
+.form-inner-box {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+    margin: 20px;
+}
+
+.form-pair {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+.text-input {
+    width: 250px;
+    padding: 0px 0px 0px 10px;
+}
+
+.form-label {
+    font-size: large;
+    text-align: right;
+    /* padding: 0px 20px; */
+    width: 250px;
+    padding: 0px 10px 0px 0px;
+}
+
+input {
+    height: 100%;
+}
+
+.submit-button {
+    width: 250px;
+    text-align: center;
+}
+
+#financialResults {
+    justify-content: left;
+    margin: 20px 50px 20px 50px;
+}
