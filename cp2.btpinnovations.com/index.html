@@ -10,45 +10,48 @@
   </head>
 
   <body>
-
-    <div class="heading">
-        <h1>Welcome to Benjamin's Financial Reporting App</h1>
-    </div>
-    <div>
-      <div class="form-box">
-        <div>
-          <form>
-            <div class="form-inner-box">
-              <div class="form-pair">
-                <label class="form-label">Enter a Ticker (ex. AAPL)</label>
-                <input class="text-input" id="ticker-input" type="text"></input>
-              </div>
-              <div class="form-pair">
-                <label class="form-label">Enter # of Days to Display</label>
-                <input class="text-input" id="num-days-input" type="number"></input>
-              </div>
-              <div class="form-pair">
-                <input class="submit-button" id="ticker-submit" type="submit" value="Submit"></input>
-                <input class="submit-button" id="ticker-add-submit" type="submit" value="Add"></input>
-              </div>
-          </form>
+    <div id="page-container">
+      <div id="content-wrap">
+        <div class="heading">
+          <h1>Welcome to Benjamin's Financial Reporting App</h1>
+      </div>
+      <div>
+        <div class="form-box">
+          <div>
+            <form>
+              <div class="form-inner-box">
+                <div class="form-pair">
+                  <label class="form-label">Enter a Ticker (ex. AAPL)</label>
+                  <input class="text-input" id="ticker-input" type="text"></input>
+                </div>
+                <div class="form-pair">
+                  <label class="form-label">Enter # of Days to Display</label>
+                  <input class="text-input" id="num-days-input" type="number"></input>
+                </div>
+                <div class="form-pair">
+                  <input class="submit-button" id="ticker-submit" type="submit" value="Submit"></input>
+                  <input class="submit-button" id="ticker-add-submit" type="submit" value="Add"></input>
+                </div>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
-
-
-    <div class="summary-box">
-      <div id="financialResults">
+  
+  
+      <div class="summary-box">
+        <div id="financialResults">
+        </div>
       </div>
+      <div class="main-forecast-box">
+        <div class="forecast-padding"></div>
+        <div id="forecastResults"></div>
+        <div class="forecast-padding"></div>
+      </div>
+      </div>
+      <div class="footer-spacer"></div>
+      <footer id="footer">Thanks for visiting! Check out my github repository <a style="text-decoration:underline;" href="https://github.com/btparker96/CS-260/tree/master/cp2.btpinnovations.com">here</a>!</footer>
     </div>
-    <div class="main-forecast-box">
-      <div class="forecast-padding"></div>
-      <div id="forecastResults"></div>
-      <div class="forecast-padding"></div>
-    </div>
-
-    <div class="footer">Thanks for visiting! Check out my github repository <a style="text-decoration:underline;" href="https://github.com/BYUCS260/lab-1-photography-website-btparker96">here</a>!
-    </div>
+      
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
     <script text="type/javascript" src="script.js">

@@ -132,7 +132,21 @@ input {
     margin: 20px 50px 20px 50px;
 }
 
-.footer {
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+  
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.footer-spacer{
+    height: 200px;
+}
+
+
+#footer {
     background-color: #7eb686;
     border-top: 1px solid #000;
     font-size: 20px;
@@ -142,5 +156,7 @@ input {
     text-align: center;
     box-sizing: border-box;
     height: 80px;
-    margin: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

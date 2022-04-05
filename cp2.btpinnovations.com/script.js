@@ -19,7 +19,7 @@ document.getElementById("ticker-submit").addEventListener("click", function(even
             summary.className = "summary";
             let h2Element = document.createElement('h2');
             h2Element.className = "current-financial-statement";
-            h2Element.appendChild(document.createTextNode('Stock Data for ' + json['Meta Data']['2. Symbol']))
+            h2Element.appendChild(document.createTextNode('Stock Data for ' + ticker));
             //summary.appendChild(h2Element);
             console.log("check point 1");
             for (let i = 0; i < numDays; i++) {
@@ -59,7 +59,7 @@ document.getElementById("ticker-submit").addEventListener("click", function(even
                 summary.className = "summary";
                 let h2Element = document.createElement('h2');
                 h2Element.className = "current-financial-statement";
-                h2Element.appendChild(document.createTextNode('Stock Data for ' + ticker))
+                h2Element.appendChild(document.createTextNode('Stock Data for ' + ticker));
                 //summary.appendChild(h2Element);
                 console.log("check point 1");
                 for (let i = 0; i < numDays; i++) {
