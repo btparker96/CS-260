@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Learning Vue</title>
+</head>
+
+<body>
+  <div id="root"> <!--This is the id that we will give to Vue to control all the DOM inside this element-->
+    <!-- data binding using the v-model directive -->
+    <input type="text" v-model="message"> <!--This is sending one way (in), Essentially assiging the value of the input to a variable called message in the vue object-->
+    <!-- data binding using mustache syntax "{{ }}"" -->
+    <p>The value of the input is: {{ message }}.</p> <!--This is sending the other way (out) making it two way-->
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> <!--load vue javascript library-->
+  <script text="type/javascript" src="script.js"></script>
+</body>
+
+</html>

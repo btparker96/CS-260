@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Tickets</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div> <!--Basically the entire app is held inside the index.html in this div tag-->
+    <!--Since Vue controls everything in the #app div, then we technically have only one web page in the app. This style of writing web applications is called a single page application.
+      The Vue Router is replacing the DOM inside of the #app div each time it renders a view or component. If you want to use Google Fonts or Bootstrap in your application, one easy way
+      to do this is to load the usual CSS and JavaScript tags in index.html like you usually would.-->
+    <!-- built files will be auto injected -->
+  </body>
+</html>
